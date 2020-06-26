@@ -8,6 +8,8 @@ function preload() {
     imagemInimigo = loadImage('imagens/inimigos/gotinha.png');
     imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png');
     imagemInimigoGrande = loadImage('imagens/inimigos/troll.png');
+    imagemVida = loadImage('imagens/assets/heart.png');
     somDoJogo = loadSound('sons/trilha_jogo.mp3');
     somDoPulo = loadSound('sons/somPulo.mp3');
+    fita = loadJSON('fita/fita.json');
 }
